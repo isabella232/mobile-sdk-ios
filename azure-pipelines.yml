@@ -37,7 +37,7 @@ jobs:
       vmImage: $(image)
     steps:
       - bash: |
-          cd Tests ; pod update Starscream; pod update BaseAPI; pod install
+          sh pod_install.sh
         displayName: 'Installing cocoapods'
 
   - job: PodLint

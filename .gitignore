@@ -19,6 +19,8 @@ DerivedData
 *.hmap
 *.ipa
 
+# Pods generated workspaces
+*.xcworkspace
 # Bundler
 .bundle
 
@@ -41,3 +43,4 @@ Example/CrowdinSDK/GoogleService-Info.plist
 Example2/
 Example2/Example2
 Carthage
+*/Pods/*
