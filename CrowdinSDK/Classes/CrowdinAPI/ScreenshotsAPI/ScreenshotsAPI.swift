@@ -5,7 +5,7 @@
 //  Created by Serhii Londar on 5/9/19.
 //
 
-import Foundation
+import UIKit
 import BaseAPI
 
 class ScreenshotsAPI: CrowdinAPI {

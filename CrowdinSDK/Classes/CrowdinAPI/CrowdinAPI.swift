@@ -5,7 +5,7 @@
 //  Created by Serhii Londar on 3/16/19.
 //
 
-import Foundation
+import UIKit
 import BaseAPI
 
 protocol CrowdinAuth {
